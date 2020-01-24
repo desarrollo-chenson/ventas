@@ -1,0 +1,366 @@
+body {
+margin: 0;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+/* border: 1px solid red; */
+font-family: 'Open Sans', sans-serif;
+color: dimgray;
+}
+section {
+
+  flex: 1;
+  /* border: 1px solid red; */
+  margin: auto;
+  width: 100%;
+  background: #f6f6f6;
+}
+#container-ps {
+  max-width: 1200px;
+}
+#container-ps h4 {
+color: #353a3f;
+font-family: 'Zilla Slab', serif;
+font-weight: bold;
+}
+
+/* header */
+/* div {
+  border: 1px solid red;
+} */
+.redes img {
+  width: 20px;
+  margin-left:5px;
+}
+.logo img {
+  width: 200px;
+}
+.btn-whatsapp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #31d74f;
+  color: white;
+
+}
+.size-whats {
+  font-size: 10px;
+}
+
+.btn-whatsapp:hover {
+  background: #37b74e;
+
+}
+.bg-blue {
+  background-color: #253760;
+}
+/* /header */
+
+/* main */
+
+.banner {
+  background: url('../images/banner-ps.gif');
+  height: 22vh;
+  min-height: 270px;
+  background-size: cover;
+  background-position: center;
+  /* filter: grayscale(60%); */
+  font-family: 'Zilla Slab', serif;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+
+.banner h1 {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    line-height: 26px;
+
+}
+.banner h2 {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    line-height: 20px;
+}
+.line {
+border-top: 4px solid pink;
+}
+
+/* /main */
+/* section */
+
+.box {
+  border: 1px solid lightgray;
+  height: auto;
+  max-width:220px;
+  background: white;
+  line-height: 18px;
+}
+.box img {
+  width: 80%;
+}
+.description {
+
+  font-size: 12px;
+  font-weight: lighter;
+}
+.description p {
+
+  font-size: 12px;
+  font-weight: lighter;
+}
+.cod  {
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+}
+.tacha {
+  font-weight: bold;
+  text-decoration: line-through;
+}
+#producto {
+  max-width: 1200px;
+}
+#producto a {
+  color: dimgray;
+  text-decoration: none;
+
+
+}
+#sec-config {
+  background: white;
+}
+.res {
+  font-weight: bold;
+  color: #8e1314;
+}
+.sep-prod {
+  border-top: 1px solid #dedede;
+
+}
+#img-update img {
+  border: 1px solid gray;
+}
+.sep-estilo {
+  border-bottom: 3px solid #683f57;
+}
+/* footer */
+    #footer {
+      max-width: 1200px;
+    }
+  .footer {
+    background: #314755;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #26a0da, #314755);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #26a0da, #314755); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    color: white;
+    font-size: 14px;
+  }
+  .footer a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .btn-consulta {
+    line-height: 20px;
+    font-size: 14px;
+  }
+  .footer img {
+    width: 25px;
+  }
+  .linea-separadora {
+    border-top: 1px solid gray;
+
+  }
+  #politicas {
+
+  }
+
+  #politicas a {
+    font-size: 12px;
+  }
+  #politicas div {
+    /* border: 1px solid red; */
+    width: 100%;
+  }
+  #text-producto {
+  background-color: white;
+  display: flex;
+  padding-bottom: 15px;
+  justify-content: space-around;
+  flex-direction: column;
+  padding-bottom: 7px;
+  line-height: 15px;
+  }
+
+  #container-color {
+  background-color: white;
+  display: flex;
+  padding-bottom: 15px;
+  justify-content: space-around;
+  align-items: center;
+  }
+  #image-size {
+  background-color: white;
+  }
+  #limit {
+  	max-width: 1200px;
+  	margin: auto;
+  }
+  .ocultar {
+    display: none;
+  }
+  .view {
+    display: block;
+  }
+  #text {
+
+  	font-weight: bold;
+  	font-size: 25px;
+
+  	line-height: 15px;
+  	text-align: center;
+  }
+  #text-second {
+
+  	font-weight: bold;
+  	font-size: 18px;
+
+  	line-height: 15px;
+  	text-align: center;
+  }
+  #divide {
+  	border-top: 1px solid lightgray;
+  	width: 90%;
+  	margin: auto;
+  	padding-bottom: 10px;
+  }
+  #text small {
+  	font-size: 12px;
+  }
+  #modal-chenson {
+  	border-bottom: 0;
+  }
+  #modal-chenson h5 {
+  	font-family: 'Oswald', sans-serif;
+  	font-weight: bold;
+  	font-size: 18px;
+  	color: dimgray;
+  	line-height: 15px;
+  }
+  #text-accordion {
+  	line-height: 18px;
+  	font-size: 14px;
+
+  }
+  #text-accordion-title h2{
+  line-height: 25px;
+  }
+  a .pestana {
+    color: black;
+  }
+  .pestana {
+  top:-37px;
+  border-radius: 5px 5px 0 0;
+  position: relative;
+  background: #E0EAFC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  .pestana img {
+    width: 90%;
+    padding: 20px 20px 20px 20px;
+  }
+  /* botones */
+  .seccion-botones {
+  	background: #E0EAFC;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to top, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to top, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  	z-index: 3;
+  	height: auto;
+  	position: fixed;
+  	bottom: -205px;
+  	border-radius: 30px 30px 0 0;
+    transition: 1s;
+
+  }
+  .showing{
+    bottom: 0%;
+  }
+  .showing img {
+    transform: rotate(180deg);
+  }
+  .btn-sel {
+  	background: #4B79A1;
+  	color: white;
+  	border: none;
+  }
+  .btn-sel:hover {
+  	color: #9db2e0;
+  }
+/* /footer */
+
+ .buscador-superior input {
+    height: 40px;
+    background: lightgray;
+    padding: 8px;
+    border: none;
+ }
+
+ #space-between-us{
+ 	line-height: 14px;
+ }
+ .loader {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     position: fixed;
+     left: 0px;
+     top: 0px;
+     width: 100%;
+     height: 100%;
+     z-index: 9999;
+     background: url('images/loader.gif') 50% 50% no-repeat rgb(249,249,249);
+     opacity: .8;
+ }
+ .loader img {
+
+ }
+
+ .instrucciones img {
+   border: 1px solid gray;
+
+ }
+
+   .logo-workshop {
+     max-width: 60%;
+     height: auto;
+   }
+
+ @media screen and (max-width: 767px) {
+   .seccion-botones {
+   	bottom: -200px;
+  }
+  .showing {
+    bottom: 0%;
+  }
+  .logo-workshop {
+    max-width: 90%;
+  }
+
+}
+@media screen and (max-width: 460px) {
+  .box {
+
+    max-width:170px;
+  }
+
+}

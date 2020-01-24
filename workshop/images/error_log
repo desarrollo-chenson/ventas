@@ -1,0 +1,14 @@
+[26-Apr-2019 09:03:25 America/Mexico_City] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/monsterb/public_html/chenson/workshop/vendor/spipu/html2pdf/src/Parsing/Html.php on line 96
+[26-Apr-2019 09:06:10 America/Mexico_City] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/monsterb/public_html/chenson/workshop/vendor/spipu/html2pdf/src/Parsing/Html.php on line 96
+[27-Apr-2019 10:32:11 America/Mexico_City] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/monsterb/public_html/chenson/workshop/vendor/spipu/html2pdf/src/Parsing/HtmlLexer.php on line 43
+[27-Apr-2019 10:32:58 America/Mexico_City] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/monsterb/public_html/chenson/workshop/vendor/spipu/html2pdf/src/Parsing/HtmlLexer.php on line 43
+[27-Apr-2019 10:33:04 America/Mexico_City] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/monsterb/public_html/chenson/workshop/vendor/spipu/html2pdf/src/Parsing/HtmlLexer.php on line 43
+[27-Apr-2019 10:33:27 America/Mexico_City] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/monsterb/public_html/chenson/workshop/vendor/spipu/html2pdf/src/Parsing/HtmlLexer.php on line 43
+[27-Apr-2019 10:35:35 America/Mexico_City] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/monsterb/public_html/chenson/workshop/vendor/tecnickcom/tcpdf/tcpdf.php on line 7334
+[29-Apr-2019 09:12:28 America/Mexico_City] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/monsterb/public_html/chenson/workshop/vendor/spipu/html2pdf/src/Parsing/HtmlLexer.php on line 43
+[02-May-2019 17:46:14 America/Mexico_City] PHP Warning:  fclose() expects parameter 1 to be resource, null given in /home/monsterb/public_html/chenson/workshop/list.php on line 106
+[02-May-2019 17:46:50 America/Mexico_City] PHP Warning:  fclose() expects parameter 1 to be resource, null given in /home/monsterb/public_html/chenson/workshop/list.php on line 106
+[06-May-2019 12:36:12 America/Mexico_City] PHP Warning:  fclose() expects parameter 1 to be resource, null given in /home/monsterb/public_html/chenson/workshop/list.php on line 106
+[06-May-2019 12:40:04 America/Mexico_City] PHP Warning:  fclose() expects parameter 1 to be resource, null given in /home/monsterb/public_html/chenson/workshop/list.php on line 106
+[09-May-2019 11:34:31 America/Mexico_City] PHP Warning:  unlink(miarchivo.zip): No such file or directory in /home/monsterb/public_html/chenson/workshop/download.php on line 33
+[15-May-2019 17:43:14 America/Mexico_City] PHP Warning:  fclose() expects parameter 1 to be resource, null given in /home/monsterb/public_html/chenson/workshop/list.php on line 106
