@@ -6,24 +6,14 @@ include('database_connection.php');
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Chenson</title>
+	<title>Chenson® México – Ventas</title>
+	<link rel="icon" href="images/favicon.png" type="image/png" sizes="32x32">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/filters.css">
 	<link rel="stylesheet" href="css/styles.css">
-		<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/main.css">
 	<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@11.0.6/dist/lazyload.min.js"></script>
-	<style media="screen">
-	#loading
-	{
-		text-align:center;
-		background: url('loader.gif') no-repeat center;
-		height: 150px;
-		z-index: 3;
-	}
-	</style>
-
-
 </head>
 <body>
 				<!-- secciones pagina -->

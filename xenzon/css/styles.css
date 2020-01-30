@@ -54,6 +54,16 @@ font-weight: bold;
 .bg-blue {
   background-color: #253760;
 }
+
+}
+.bg-white {
+  background-color: #ffffff;
+}
+
+.link-blue{
+  color: #253760;
+}
+
 /* /header */
 
 /* main */
