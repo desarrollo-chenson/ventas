@@ -1,10 +1,20 @@
+@font-face {
+  font-family: 'Gotham';
+  src: url('../fonts/Gotham-Medium.woff');
+}
+
+@font-face {
+  font-family: 'Gotham-Light';
+  src: url('../fonts/Gotham-Light.woff');
+}
+
 body {
 margin: 0;
 min-height: 100vh;
 display: flex;
 flex-direction: column;
 /* border: 1px solid red; */
-font-family: 'Open Sans', sans-serif;
+font-family: 'Gotham','Open Sans', sans-serif;
 color: dimgray;
 }
 section {
@@ -20,7 +30,7 @@ section {
 }
 #container-ps h4 {
 color: #353a3f;
-font-family: 'Zilla Slab', serif;
+font-family: 'Gotham', 'Zilla Slab', serif;
 font-weight: bold;
 }
 
@@ -52,7 +62,7 @@ font-weight: bold;
 
 }
 .bg-blue {
-  background-color: #253760;
+  background-color: #002855;
 }
 
 }
@@ -61,7 +71,7 @@ font-weight: bold;
 }
 
 .link-blue{
-  color: #253760;
+  color: #002855;
 }
 
 /* /header */
@@ -75,7 +85,7 @@ font-weight: bold;
   background-size: cover;
   background-position: center;
   /* filter: grayscale(60%); */
-  font-family: 'Zilla Slab', serif;
+  font-family: 'Gotham', 'Zilla Slab', serif;
   font-weight: bold;
   font-size: 30px;
   text-align: center;
@@ -166,11 +176,7 @@ border-top: 4px solid pink;
       max-width: 1200px;
     }
   .footer {
-    background: #314755;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #26a0da, #314755);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #26a0da, #314755); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
+    background: #011b3b;
     color: white;
     font-size: 14px;
   }
@@ -190,16 +196,14 @@ background: linear-gradient(to right, #26a0da, #314755); /* W3C, IE 10+/ Edge, F
     border-top: 1px solid gray;
 
   }
-  #politicas {
-
-  }
-
   #politicas a {
     font-size: 12px;
+    font-family: 'Gotham-Light';
   }
   #politicas div {
     /* border: 1px solid red; */
     width: 100%;
+    
   }
   #text-producto {
   background-color: white;
@@ -260,7 +264,7 @@ background: linear-gradient(to right, #26a0da, #314755); /* W3C, IE 10+/ Edge, F
   	border-bottom: 0;
   }
   #modal-chenson h5 {
-  	font-family: 'Oswald', sans-serif;
+  	font-family: 'Gotham', 'Oswald', sans-serif;
   	font-weight: bold;
   	font-size: 18px;
   	color: dimgray;
