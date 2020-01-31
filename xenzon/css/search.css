@@ -3,8 +3,12 @@
     margin-bottom: 150px;
 }
 
-.image-upload > input {
-  display: none;
+.buscador{
+    margin-bottom: 25px;
+}
+
+.row-centered {
+    text-align:center;
 }
 
 .inputfile {
@@ -12,18 +16,24 @@
 	height: 0.1px;
 	opacity: 0;
 	overflow: hidden;
-	position: absolute;
-    z-index: -1;
 }
 
 .inputfile + label {
 	cursor: pointer; /* "hand" cursor */
 }
 
-.btn{
-    color: dimgray;
+label{
+    margin-bottom: 0;
 }
 
-.inputfile:hover {
-    color: red;
+.btn{
+    color: grey;
+}
+
+a{
+    color: grey;
+}
+
+a:hover{
+    color: #011b3b;
 }
