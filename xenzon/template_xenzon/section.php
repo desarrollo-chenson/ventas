@@ -14,7 +14,7 @@
     <div class="cd-fail-message">No results found</div> -->
 
     </section>
-    <?php include 'template_xenzon/select.php'; ?>
+    <!--?php include 'template_xenzon/select.php'; ?>-->
     </form>
     <?php include 'template_xenzon/filters.php' ?>
 </main> <!-- cd-main-content -->

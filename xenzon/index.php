@@ -13,10 +13,13 @@ include('database_connection.php');
 	<link rel="stylesheet" href="css/styles.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@11.0.6/dist/lazyload.min.js"></script>
 </head>
 <body>
 				<!-- secciones pagina -->
+	
+
 
 			<?php include 'template_xenzon/header.php' ?>
 			<?php include 'template_xenzon/main.php' ?>

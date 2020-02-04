@@ -1,3 +1,22 @@
+<!--Buttons download files-->
+<div class="fab">
+        <i class="fa fa-file" aria-hidden="true"></i>
+    </div>
+
+    <div class="boxi">
+        <a href="#" class="itemm item1" rel="Catálogo con precios"><i class="fa fa-file-text-o" aria-hidden="true"></i></a>
+        <a href="#" class="itemm item2" rel="Catálogo sin precios"><i class="fa fa-file-o" aria-hidden="true"></i></a>
+        <a href="#" class="itemm item3" rel="Imágenes"><i class="fa fa-file-image-o" aria-hidden="true"></i></a>
+    </div>
+
+    <script>
+        document.querySelector('.fab').addEventListener('click',function(e){
+            document.querySelector('.boxi').classList.toggle('boxi-active');
+            document.querySelector('.fab').classList.toggle('fab-active');
+        });
+    </script>
+<!--Buttons download files-->
+
   <div class="cd-filter">
     <form>
 
