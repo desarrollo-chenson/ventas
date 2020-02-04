@@ -2,7 +2,7 @@
   <div style="padding-top: 10px; padding-bottom: 10px;">
     <ul class="d-flex justify-content-center">
 
-      <li style="margin:auto;"><a href="upload.php">subir archivo Excel<span><img class="ml-1" style="width:40px; vertical-align: middle;" src="images/importar.png"><span></a></li>
+      <li style="margin:auto;"><a href="upload.php">Subir archivo Excel  <span><i class="fa fa-upload" aria-hidden="true" style="color:red"></i><span></a></li>
       <!-- buscador menu superior -->
 
     <!-- /buscador menu superior -->
