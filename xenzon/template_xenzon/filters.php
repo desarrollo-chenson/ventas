@@ -1,12 +1,12 @@
 <!--Buttons download files-->
 <div class="fab">
-        <i class="fa fa-file" aria-hidden="true"></i>
+        <i class="fa fa-file faf" aria-hidden="true"></i>
     </div>
 
     <div class="boxi">
-        <a href="#" class="itemm item1" rel="Catálogo con precios"><i class="fa fa-file-text-o" aria-hidden="true"></i></a>
-        <a href="#" class="itemm item2" rel="Catálogo sin precios"><i class="fa fa-file-o" aria-hidden="true"></i></a>
-        <a href="#" class="itemm item3" rel="Imágenes"><i class="fa fa-file-image-o" aria-hidden="true"></i></a>
+        <a href="#" class="itemm item1" rel="Catálogo con precios"><i class="fa fa-file-text-o faf" aria-hidden="true"></i></a>
+        <a href="#" class="itemm item2" rel="Catálogo sin precios"><i class="fa fa-file-o faf" aria-hidden="true"></i></a>
+        <a href="#" class="itemm item3" rel="Imágenes"><i class="fa fa-file-image-o faf" aria-hidden="true"></i></a>
     </div>
 
     <script>
